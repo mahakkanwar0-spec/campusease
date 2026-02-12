@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #1976d2;
+  color: white;
+}
+
+a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+button {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}

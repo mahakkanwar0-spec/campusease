@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Complaints</h2>
+
+  <div class="create-box">
+    <input [(ngModel)]="form.title" placeholder="Title">
+    <textarea [(ngModel)]="form.description" placeholder="Description"></textarea>
+    <button (click)="create()">Create Complaint</button>
+  </div>
+
+  <div *ngFor="let c of complaints" class="card">
+    <h3>{{ c.title }}</h3>
+    <p>{{ c.description }}</p>
+    <span>Status: {{ c.status }}</span>
+  </div>
+</div>

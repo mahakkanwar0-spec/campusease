@@ -1,0 +1,25 @@
+<nav class="navbar">
+  <div class="logo">CampusEase</div>
+
+  <div *ngIf="!isLoggedIn()">
+    <a routerLink="/login">Login</a>
+    <a routerLink="/register">Register</a>
+  </div>
+
+  <div *ngIf="isLoggedIn()">
+    <a routerLink="/complaints" [class.active]="isActive('/complaints')">
+      Complaints
+    </a>
+
+    <a routerLink="/profile" [class.active]="isActive('/profile')">
+      Profile
+    </a>
+
+    <!-- ADMIN DASHBOARD -->
+    <a *ngIf="isAdmin()" routerLink="/admin">
+      Admin
+    </a>
+
+    <button (click)="logout()">Logout</button>
+  </div>
+</nav>

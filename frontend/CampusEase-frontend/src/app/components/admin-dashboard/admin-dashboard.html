@@ -1,0 +1,18 @@
+<div class="container">
+
+
+  <div *ngFor="let c of complaints" class="card">
+    <b>{{ c.title }}</b>
+    <p>{{ c.description }}</p>
+
+    <label>Status:</label>
+    <select
+      [(ngModel)]="c.status"
+      (ngModelChange)="updateStatus(c, $event)"
+    >
+      <option value="Pending">Pending</option>
+      <option value="In Progress">In Progress</option>
+      <option value="Resolved">Resolved</option>
+    </select>
+  </div>
+</div>
