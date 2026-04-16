@@ -43,7 +43,7 @@ CampusEase is a centralized complaint management system designed to streamline t
 
 ### 📋 Complaint List
 
-![Complaint List]ComplaintList.png)
+![Complaint List](ComplaintList.png)
 
 ### 📊 Complaint Progress
 
