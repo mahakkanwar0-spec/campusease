@@ -39,19 +39,19 @@ CampusEase is a centralized complaint management system designed to streamline t
 
 ### 🔐 Admin Dashboard
 
-![Admin](screenshots/Admin.png)
+![Admin](frontend/screenshots/Admin.png)
 
 ### 📋 Complaint List
 
-![Complaint List](screenshots/ComplaintList.png)
+![Complaint List](frontend/screenshots/ComplaintList.png)
 
 ### 📊 Complaint Progress
 
-![Progress](screenshots/Progress.png)
+![Progress](frontend/screenshots/Progress.png)
 
 ### 📝 Student Complaint Form
 
-![Student Complaint](screenshots/Student-Complaint.png)
+![Student Complaint](frontend/screenshots/Student-Complaint.png)
 
 ---
 
